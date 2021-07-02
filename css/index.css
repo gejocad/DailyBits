@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #FEC7D7;
+    --color-secundary: #A786DF;
+    --font-family: "Nunito-Bcold";
+    --src: url("../fonts/Nunitov-Bold.ttf");
+    --color-blue: #91C1D7;
+    --color-green: #85D1CE;
+    --color-gray: #535353;
+    --color-tertiary: #D9D4E7;
+    --color-black: #0E172C;
+    --bs-secondary: #0E172C;
+}
+
+
+  body {
+    background-color: black;
+    color: white;
+    
+}
