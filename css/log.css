@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: Nunito;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+  color: var(--color-green)
+}
+
+.logo{
+width: 80px;
+height: 80px;
+transform: translateX(160%);
+}
+
+.titulo{
+  text-align:center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 32px;
+  width: 208px;
+  height: 39px;
+  line-height: 49px;
+  line-break: 30px;
+  transform: translateX(30%);
+  margin-bottom: 40px;
+}
+.btn-google{
+  background-image:url(/img/icon-google\ .png);
+  background-repeat: no-repeat;
+  background-position: 20% 50%;
+  background-color: var(--color-red); 
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding-left: 22px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  width: 340px;
+  height: 50px;
+
+
+}
+
+.linea{
+  position: static;
+width: 340px;
+height: 0px;
+left: 0px;
+top: 64px;
+
+border: 0.5px solid var(--color-gray);
+
+
+align-self: stretch;
+flex-grow: 0;
+}
+
+.ttl-correo{
+  font-weight: normal;
+  margin-left: 15px;
+  margin-bottom: -2px;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.input{
+
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+  width: 340px;
+  height: 50px;
+  margin: 8px 0px;
+  
+  
+  border-radius: 4px;
+
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.recuperar{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 215px;
+  height: 24px;
+  left: 72.5px;
+  top: 263px;
+  margin: 32px 0px;
+}
+
+.inscribir{
+  text-decoration: none;
+}
