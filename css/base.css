@@ -18,29 +18,4 @@
     --color-red: #EF4565;
 }
 
-footer{
-  /* Auto Layout */
-
-display: flex;
-flex-direction: row;
-justify-content:space-between;
-align-items: center;
-
-position: fixed;
-width: 100%;
-height: 69px;
-left: 0px;
-bottom: 0px;
-padding: 5%;
-padding-top: 8%;
-/* Neutral */
-
-
-background: var(--color-neutral);
-
-/* Inside Auto Layout */
-
-flex: none;
-align-self: stretch;
-}
 
