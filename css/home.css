@@ -20,37 +20,39 @@ body {
     font-style: normal;
     letter-spacing: 0.0015em;
 }
-.cursos{
+.curso{
     margin: 5px;
     padding: 5px;
 }
 
-.curso-inicial{
-    
-}
 
-footer{
+
+.menu{
     /* Auto Layout */
-  
   display:flex;
-  flex-direction:row;
-  align-items: center;
+  flex-direction: row; 
   justify-content:space-between;
-  
-  position: fixed;
   width: 100%;
   height: 70px;
-  left: 0px;
-  right: 0px;
   bottom: 0px;
   padding: 15px;
   padding-top: 15px;
+  position: fixed;
   /* Neutral */
-  
   
   background: var(--color-neutral);
   
-
   }
-  
-  
+  .curso-inicial{
+    display:flexbox ;
+    align-items: center;       
+  }
+  .cursos-secundarios{
+      
+      width: 300px;
+  }
+  .cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+  }
