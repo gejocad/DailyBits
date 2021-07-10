@@ -20,10 +20,6 @@ body {
     font-style: normal;
     letter-spacing: 0.0015em;
 }
-.curso{
-    margin: 5px;
-    padding: 5px;
-}
 
 
 
@@ -44,15 +40,106 @@ body {
   
   }
   .curso-inicial{
-    display:flexbox ;
+    display: flex;
+    flex-direction:column;
     align-items: center;       
   }
   .cursos-secundarios{
-      
+      justify-content: space-between;
       width: 300px;
   }
   .cursos{
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items:center;     
   }
+
+  
+.curso{
+  transform:translateX(25%);
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (min-width: 600px) {  
+    
+.menu{
+  /* Auto Layout */
+display:flex;
+flex-direction:row; 
+align-content: space-between;
+width: 400px;
+height: 400px;
+position: fixed;
+bottom: 0px;
+border-radius: 10%;
+transform: translateX(60%);
+transform: translateY(80%);
+}
+    
+.opcion{
+  align-items: center;
+}
+
+
+/**/
+.cursos{
+  display: flex;
+  flex-direction: row;
+  transform: translateY(70%);   
+}
+
+.curso-inicial{
+  display: flex;
+  flex-direction:row;   
+}
+
+.cursos-secundarios{
+  justify-content: space-between;
+  width: auto;
+}
+
+.ttl-main{
+  
+  font-size: 23px;
+}
+
+
+  }        
+  @media (min-width: 1240px) {
+  
+    
+    .menu{
+      /* Auto Layout */
+    display:flex;
+    flex-direction:row; 
+    align-content: space-between;
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    bottom: 100px;
+    top: 0px;
+    border-radius: 10%;
+    transform: translateX(60%);
+    transform: translateY(-80%);
+    }
+        
+    .opcion{
+      transform: translateY(320px);
+      align-items: center;
+    }    
+
+    .cursos{
+      display: flex;
+      flex-direction: row;
+      transform: translateY(100%);   
+    }
+
+
+    .ttl-main{
+      font-size: 30px;
+      position: fixed;
+      top: 80%;
+}
+      }        
+    
