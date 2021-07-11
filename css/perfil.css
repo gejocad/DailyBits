@@ -1,0 +1,49 @@
+/*HIPERTEXTOS*/
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family);  
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*CLASES*/
+
+
+.titulo{
+    top: 0px;
+    position: fixed;
+    left: 7%;
+}
+
+.usuario-img{
+    margin-top: 100px;
+}
+
+.contenedor{
+    text-align: center;
+}
+.csesion{
+    color: var(--color-red);
+}
+/*MQ*/
+
+@media (min-width: 1240px) {
+
+    .titulo{
+        top: 100px;
+        left: 25%;
+    }
+
+    .contenedor{
+        margin-top: 100px;
+        
+    }
+ }
