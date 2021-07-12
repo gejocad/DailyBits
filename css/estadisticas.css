@@ -18,5 +18,30 @@ body {
 
 
 .titulo{
-    text-align: left;
+    top: 0px;
+    position: fixed;
+    left: 7%;
 }
+
+.estadistica{
+    position:relative;
+    border-style: solid;
+    border-width: 1px;
+    transform: translateY(100px);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contenedor{
+justify-content::space-evenly;
+}
+
+@media (min-width: 1240px) {
+
+    .titulo{
+        top: 100px;
+        left: 25%;
+    }
+
+ }
