@@ -21,6 +21,9 @@ body {
     letter-spacing: 0.0015em;
 }
 
+.curso{
+  width: auto;
+}
 @media (min-width: 600px) { 
   
 .ttl-main{
@@ -37,5 +40,6 @@ body {
     position: fixed;
     top: 80%;
 }
+
 
  }
