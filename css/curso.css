@@ -1,0 +1,41 @@
+body {
+    margin-top: 16px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family);  
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color: var(--color-white);
+    transform: translateY(-5px);
+}
+.progreso{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 13px;
+    justify-content: space-between;
+}
+.avatar{
+    
+    width: 112px;
+    height: 238px;
+    margin-top: 30px;
+}
+
+.pregunta{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pregunta-texto{
+    margin-left: 17px;
+    margin-top: 60px;
+
+}

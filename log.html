@@ -13,12 +13,14 @@
 </head>
 <body>
     <section>
-        <img src="./img/Logo.png" class="logo" alt="">
+        <form id="form" onsubmit="functionSubmit(event)">
+        <img src="/img/Logo.png" class="logo" alt="">
         <h1 class="titulo">Iniciar sesión</h1>
-        <button class="btn-google" type="submit">Continuar con Google</button>
+        <button class="btn-google" type="submit"  onclick="login()">Continuar con Google</button>
         <h3 class="linea"></h3>
         <h4 class="ttl-correo">Correo electrónico</h4>
-        <input type="email" id="correo" class="input" placeholder="Ingrese su correo electrónico">
+        <input type="email" id="correoing" class="input" placeholder="Ingrese su correo electrónico" required>
+    </form>
     </section>
     
     <p class="recuperar"><a href="#">¿Se te olvidó tu contraseña?</a>
