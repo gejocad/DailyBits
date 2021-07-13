@@ -79,22 +79,6 @@ align-items: center;
 }
 
 
-/**/
-.cursos{
-display: flex;
-flex-direction: row;
-transform: translateY(70%);   
-}
-
-.curso-inicial{
-display: flex;
-flex-direction:row;   
-}
-
-.cursos-secundarios{
-justify-content: space-between;
-width: auto;
-}
 
 }        
 @media (min-width: 1240px) {
@@ -120,11 +104,6 @@ width: auto;
     align-items: center;
   }    
 
-  .cursos{
-    display: flex;
-    flex-direction: row;
-    transform: translateY(100%);   
-  }
 
     }        
   

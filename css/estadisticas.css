@@ -1,6 +1,8 @@
 /*HIPERTEXTOS*/
 
 body {
+    
+    margin-top: 16px;
     background-color: var(--color-black);
     color: var(--color-white);
     font-family: var(--font-family);  
@@ -24,7 +26,7 @@ h2{
 
 
 .titulo{
-    top: 0px;
+    top: 16px;
     position: fixed;
     left: 7%;
 }

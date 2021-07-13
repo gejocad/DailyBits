@@ -4,7 +4,7 @@
 
 function index(){
 
-    window.location.href = "home.html";
+    window.location.href = "log.html";
     
 }
 

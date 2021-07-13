@@ -1,4 +1,5 @@
-body {
+  body {
+    margin-top: 16px;
     background-color: var(--color-black);
     color: var(--color-white);
     font-family: var(--font-family);  
@@ -30,6 +31,23 @@ body {
 
   font-size: 23px;
   }
+  /**/
+.cursos{
+  display: flex;
+  flex-direction: row;
+  transform: translateY(70%);   
+  }
+  
+  .curso-inicial{
+  display: flex;
+  flex-direction:row;   
+  }
+  
+  .cursos-secundarios{
+  justify-content: space-between;
+  width: auto;
+  }
+  
  }
 
 @media (min-width: 1240px) { 
@@ -39,7 +57,12 @@ body {
     font-size: 30px;
     position: fixed;
     top: 80%;
-}
+    }
 
+    .cursos{
+      display: flex;
+      flex-direction: row;
+      transform: translateY(100%);   
+    }
 
  }
