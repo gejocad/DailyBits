@@ -13,6 +13,15 @@ p{
     color: var(--color-white);
     transform: translateY(-5px);
 }
+
+h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;                            
+}
+
 .progreso{
     display: flex;
     flex-direction: row;
@@ -38,4 +47,15 @@ p{
     margin-left: 17px;
     margin-top: 60px;
 
+}
+.opcion-pregunta{
+    background: var(--color-neutral);
+    border-style: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 328px;
+    height: 56px;
+    left: 16px;
+    top: 160px;
 }
