@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: center;
 }
+section{
+  transform: translateY(100px);
+}
 
 .ttl-main{
     text-align: center;
@@ -35,7 +38,6 @@
 .cursos{
   display: flex;
   flex-direction: row;
-  transform: translateY(70%);   
   }
   
   .curso-inicial{
