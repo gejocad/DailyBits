@@ -13,7 +13,7 @@ function login(){
     if (correo == correoing){
         window.location.href = "home.html";
     }else{
-        alert ("ingrese un correo valido");
+        alert ("ingrese un correo valido. Pr favor ingrese francisco.javier@gmail.com");
     }
 
 }
