@@ -1,0 +1,46 @@
+<html> 
+<head> 
+   	<title>Ejemplo Radio Button</title> 
+       <table>
+        <tbody><tr>
+        <td>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,1);"><br>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,2);"><br>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,3);"><br>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,4);"><br>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,5);"><br>
+        <input type="checkbox" onclick="javacript:EnableDisableButton(this,6);"><br>
+        <input id="textbox1" type="text" name="t3"><br>
+        <input id="button1" type="submit" value="Enable / Disable" disabled=""><br>
+        </td>
+        </tr>
+        </tbody></table>
+        <script type="text/javascript">
+        var idList = ";"
+        document.getElementById('textbox1').value = idList;
+        
+        function EnableDisableButton(cb, id) {
+        
+        if (cb.checked == 1) {
+        idList = idList + id + ";"
+        document.getElementById('textbox1').value = idList;
+        }
+        
+        if (cb.checked == 0) {
+        var v;
+        v = ";" + id + ";"
+        idList = idList.replace(v, ";");
+        document.getElementById('textbox1').value = idList;
+        }
+        
+        if (idList == ";") {
+        document.getElementById('button1').disabled = true;
+        } else {
+        document.getElementById('button1').disabled = false;
+        }
+        
+        }
+        
+        </script>
+</body> 
+</html>

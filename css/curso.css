@@ -113,4 +113,74 @@ h3{
     background-image:url("/img/radio-button-active.png");
   }
   
+ .comprobar{
+
+  position:absolute;
+  width: 328px;
+  height: 50px; 
+  color: var(--color-white);
+  transform: translateX(-164px);
+  bottom: 16px;
+  margin-top: 20px;
+  background: #D4CAF3;
+  border-radius: 16px;
+
+  
+ }
+
+
+ .contenedor_img{
+     align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 360px;
+    transform: translateX(30px);
+   
+ }
+
+ .resp_img{
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+position: static;
+width: 144px;
+height: 200px;
+left: 32px;
+top: 0px;
+ }
+
+ .contenedor_etq{
+  position:absolute;
+  align-items: center;
+ justify-content: space-between;
+ align-content: center;
  
+ bottom: 95px;
+ 
+ transform: translateX(30px);
+
+}
+
+.resp_etq{
+  justify-content: center;
+  align-items: center;
+  padding: 4px 4px 8px;
+  padding-bottom: 10px;
+  position: static;
+  left: 32px;
+  top: 0px;
+   }
+
+   .linea{
+    position: static;
+    width: 328px;
+    height: 1px;
+    left: 16px;
+    top: 72px;
+    margin-bottom: 7px;
+    
+    /* Grey */
+    
+    background: #94A1B2;
+   }
