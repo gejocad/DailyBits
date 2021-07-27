@@ -2,32 +2,32 @@ let preguntasOrdeDB = [
     {
         id:  0,
         pregunta: "British Shorthair",
-        btn1: "4 Meses",
-        btn2: "4140 Parker Rd. Allentown, New Mexico 31134",
-        btn3: "Matilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. su comida favorita es el pollo a la jardineraMatilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. Su comida favorita es el pollo a la jardinera.",
-        btn4: "Anderson Casanova",
-        btn5: "Anderson Casanova",
-        btnCorrect: ["restless", "tender", "curious", "tender", "curious"]
+        btn1: "img/male.png",
+        btn2: "img/male.png",
+        btn3: "img/male.png",
+        btn4: "img/male.png",
+        btn5: "img/male.png",
+        btnCorrect: ["img/male.png", "img/male.png", "img/male.png", "img/male.png", "img/male.png"]
         
     },{
         id:  1,
         pregunta: "British Shorthair",
-        btn1: "4 Meses",
-        btn2: "4140 Parker Rd. Allentown, New Mexico 31134",
-        btn3: "Matilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. su comida favorita es el pollo a la jardineraMatilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. Su comida favorita es el pollo a la jardinera.",
-        btn4: "Anderson Casanova",
-        btn5: "Anderson Casanova",
-        btnCorrect: ["restless", "tender", "curious", "tender", "curious"]
+        btn1: "img/male.png",
+        btn2: "img/male.png",
+        btn3: "img/male.png",
+        btn4: "img/male.png",
+        btn5: "img/male.png",
+        btnCorrect: ["img/male.png", "img/male.png", "img/male.png", "img/male.png", "img/male.png"]
         
     },{
         id:  2,
         pregunta: "British Shorthair",
-        btn1: "4 Meses",
-        btn2: "4140 Parker Rd. Allentown, New Mexico 31134",
-        btn3: "Matilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. su comida favorita es el pollo a la jardineraMatilde es una gatita muy cariñosa e inteligente. Le encanta posarse en los pies de las personas y jugar a las carreras. Su comida favorita es el pollo a la jardinera.",
-        btn4: "Anderson Casanova",
-        btn5: "Anderson Casanova",
-        btnCorrect: ["restless", "tender", "curious", "tender", "curious"]
+        btn1: "img/male.png",
+        btn2: "img/male.png",
+        btn3: "img/male.png",
+        btn4: "img/male.png",
+        btn5: "img/male.png",
+        btnCorrect: ["img/male.png", "img/male.png", "img/male.png", "img/male.png", "img/male.png"]
         
     },
 ]
