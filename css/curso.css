@@ -98,7 +98,7 @@ h3{
     right: 8px;
     height: 25px;
     width: 25px;
-    background-image:url("/img/radio-button.png");
+    background-image:url("https://gejocad.github.io/DailyBits/img/radio-button.png");
     border-radius: 50%;
   }
   
@@ -106,7 +106,7 @@ h3{
   
   /* When the radio button is checked, add a blue background */
   .container input:checked ~ .checkmark {
-    background-image:url("/img/radio-button-active.png");
+    background-image:url("https://gejocad.github.io/DailyBits/img/radio-button-active.png");
   }
   
   /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -118,7 +118,7 @@ h3{
   
   /* Show the indicator (dot/circle) when checked */
   .container input:checked ~ .checkmark:after {
-    background-image:url("/img/radio-button-active.png");
+    background-image:url("https://gejocad.github.io/DailyBits/img/radio-button-active.png");
   }
   
  .comprobar{
