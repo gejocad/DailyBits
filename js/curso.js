@@ -1,49 +1,58 @@
 import preguntasSelecDB from './preguntasSelecDB.js'; 
 
 
-var vidas = localStorage.getItem("vidas");  
-var barras = localStorage.getItem("barras");  
 
-if (vidas > 0){
-let vida = document.querySelector(".vida")
+//localStorage.setItem("barras", 0);
 
-vida.innerHTML =''
+signosVitales()
 
-vida.innerHTML += `<img src="img/corazon.png" alt=""> ${vidas}`
+function signosVitales(){
 
-}else{
-  let vida = document.querySelector(".vida")
-  localStorage.setItem('vidas', 4);
-vida.innerHTML =''
-
-vida.innerHTML += `<img src="img/corazon.png" alt=""> 4`
-}
-
-
-
-if (barras > 0){
-
-  let barra = document.querySelector(".barra")
-  barra.innerHTML =''
+  var vidas = localStorage.getItem("vidas");  
+  var barras = localStorage.getItem("barras");  
   
-  barra.innerHTML += `<img src="img/Progress=${barras}.png" alt="">`;
-
-
+  if (vidas > 0){
+  let vida = document.querySelector(".vida")
+  
+  vida.innerHTML =''
+  
+  vida.innerHTML += `<img src="img/corazon.png" alt=""> ${vidas}`
+  
   }else{
-    
+    let vida = document.querySelector(".vida")
+    localStorage.setItem('vidas', 4);
+  vida.innerHTML =''
+  
+  vida.innerHTML += `<img src="img/corazon.png" alt=""> 4`
+  }
+  
+  
+  
+  if (barras > 0){
+  
     let barra = document.querySelector(".barra")
-    
-    localStorage.setItem('barras', 0);
-
     barra.innerHTML =''
     
-    barra.innerHTML += `<img src="img/Progress=0.png" alt="">`;
+    barra.innerHTML += `<img src="img/Progress=${barras}.png" alt="">`;
+  
+  
+    }else{
+      
+      let barra = document.querySelector(".barra")
+      
+      localStorage.setItem('barras', 0);
+  
+      barra.innerHTML =''
+      
+      barra.innerHTML += `<img src="img/Progress=0.png" alt="">`;
+  }
+  
+  
+  
+preguntaAleatoreaSelect()
 }
 
 
-
-
-preguntaAleatoreaSelect()
 
 
 function preguntaAleatoreaSelect(){
