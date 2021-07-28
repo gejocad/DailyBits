@@ -37,6 +37,19 @@ function signosVitales(){
     barra.innerHTML += `<img src="img/Progress=${barras}.png" alt="">`;
   
   
+    }else if(barras > 10){
+
+    let barra = document.querySelector(".barra")
+    barra.innerHTML =''
+    
+    barra.innerHTML += `<img src="img/Progress=10.png" alt="">`;
+
+    }else{
+    let barra = document.querySelector(".barra")
+    barra.innerHTML =''
+    
+    localStorage.setItem('barras', 0);    
+    barra.innerHTML += `<img src="img/Progress=0.png" alt="">`;
     }
   
   

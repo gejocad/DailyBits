@@ -2,10 +2,10 @@ var pBarras, pVida, pCorrectas, pIncorrectas, tPreguntas;
 
 function comprobar(){
 
-    let comprobarBtnCheck = ""
+    let comprobarBtnCheck = "", resCorrect = "";
     comprobarBtnCheck = $('input[name="radio"]:checked').val();
-    let resCorrect = document.getElementById('resCorrect').innerHTML;
-
+    resCorrect = document.getElementById('resCorrect').innerHTML;
+    
 if (comprobarBtnCheck == resCorrect){
 
     resCorrecta()
