@@ -97,7 +97,7 @@ line-height: 24px;
     }
 .valor-incorrecto{
     color: var(--color-red);
-    margin-left: 60px;
+    margin-left: 73px;
     transform: translateY(-8px);
     font-weight: 200;
 }

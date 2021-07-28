@@ -1,4 +1,4 @@
-var pBarras, pVida;
+var pBarras, pVida, pCorrectas, pIncorrectas, tPreguntas;
 
 function comprobar(){
 
@@ -11,22 +11,33 @@ if (comprobarBtnCheck == resCorrect){
     resCorrecta()
 
     pBarras = localStorage.getItem("barras");
+    pCorrectas = localStorage.getItem("correctas");
+    tPreguntas = localStorage.getItem("tpreguntas");
     pBarras++;
+    pCorrectas++;
+    tPreguntas++;
+
     localStorage.setItem("barras", pBarras);
+    localStorage.setItem("correctas", pCorrectas);
+    localStorage.setItem("tpreguntas", tPreguntas);
     if (pBarras == 10){
         ganaste()
 
     }
-
-
 
 }else{
 
     resIncorrecta(resCorrect)
 
     pVidas = localStorage.getItem("vidas");
+    pIncorrectas = localStorage.getItem("incorrectas");
+    tPreguntas = localStorage.getItem("tpreguntas");
     pVidas--;
+    pIncorrectas++;
+    tPreguntas++;
     localStorage.setItem("vidas", pVidas);
+    localStorage.setItem("incorrectas", pIncorrectas);
+    localStorage.setItem("tpreguntas", tPreguntas);
     if (pVidas == 0)
         sinVidas()
 }

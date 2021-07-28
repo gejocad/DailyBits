@@ -1,5 +1,6 @@
 let cursoCompletado = localStorage.getItem("barras")
 
+
 if(cursoCompletado == 10){
     cambiarImagenHtml()
 }

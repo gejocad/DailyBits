@@ -21,6 +21,7 @@ function signosVitales(){
   }else{
     let vida = document.querySelector(".vida")
     localStorage.setItem('vidas', 4);
+
   vida.innerHTML =''
   
   vida.innerHTML += `<img src="img/corazon.png" alt=""> 4`
@@ -28,7 +29,7 @@ function signosVitales(){
   
   
   
-  if (barras > 0){
+  if (barras >= 0){
   
     let barra = document.querySelector(".barra")
     barra.innerHTML =''
@@ -36,17 +37,7 @@ function signosVitales(){
     barra.innerHTML += `<img src="img/Progress=${barras}.png" alt="">`;
   
   
-    }else{
-      
-      let barra = document.querySelector(".barra")
-      
-      localStorage.setItem('barras', 0);
-  
-      barra.innerHTML =''
-      
-      barra.innerHTML += `<img src="img/Progress=0.png" alt="">`;
-  }
-  
+    }
   
   
 preguntaAleatoreaSelect()
