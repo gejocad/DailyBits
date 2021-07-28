@@ -35,7 +35,7 @@ transform: translateX(160%);
   margin-bottom: 40px;
 }
 .btn-google{
-  background-image:url("/img/icon-google.png");
+  background-image:url("https://gejocad.github.io/DailyBits/img/icon-google.png");
   background-repeat: no-repeat;
   background-position: 20% 50%;
   background-color: var(--color-red); 
