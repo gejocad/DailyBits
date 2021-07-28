@@ -1,10 +1,61 @@
 import preguntasSelecDB from './preguntasSelecDB.js'; 
 
 
-localStorage.setItem("petId", 0 )
+var vidas = localStorage.getItem("vidas");  
+var barras = localStorage.getItem("barras");  
 
-var id = localStorage.getItem("petId")
+if (vidas > 0){
+let vida = document.querySelector(".vida")
+
+vida.innerHTML =''
+
+vida.innerHTML += `<img src="img/corazon.png" alt=""> ${vidas}`
+
+}else{
+  let vida = document.querySelector(".vida")
+  localStorage.setItem('vidas', 4);
+vida.innerHTML =''
+
+vida.innerHTML += `<img src="img/corazon.png" alt=""> 4`
+}
+
+
+
+if (barras > 0){
+
+  let barra = document.querySelector(".barra")
+  barra.innerHTML =''
+  
+  barra.innerHTML += `<img src="img/Progress=${barras}.png" alt="">`;
+
+
+  }else{
+    
+    let barra = document.querySelector(".barra")
+    
+    localStorage.setItem('barras', 0);
+
+    barra.innerHTML =''
+    
+    barra.innerHTML += `<img src="img/Progress=0.png" alt="">`;
+}
+
+
+
+
+preguntaAleatoreaSelect()
+
+
+function preguntaAleatoreaSelect(){
+
+
+var id = Math.floor(Math.random() * 4);
+
+console.log(id)
+
 mostrarPreguntaSelec(id)
+
+}
 
 function mostrarPreguntaSelec(id){
 
@@ -23,7 +74,7 @@ pregunta.innerHTML = ''
 res1.innerHTML = ''
 res2.innerHTML = ''
 res3.innerHTML = ''
-resCorrect.innerHTML = 'preId.resCorrect'
+resCorrect.innerHTML = preId.resCorrect
 
 
 avatar.innerHTML += `

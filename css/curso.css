@@ -200,9 +200,128 @@ top: 0px;
     top: 72px;
     margin-bottom: 7px;
     
-    /* Grey */
     
     background: #94A1B2;
    }
 
    
+   .pregunta-correcta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    
+    position: absolute;
+    width: 100%;
+    height: 122px;
+    left: 0px;
+    bottom: 0px;
+    
+    background: #ACFFCF;
+   }
+
+   .mensaje-correcto{
+    
+  
+    position: static;
+    width: 104px;
+    height: 24px;
+    left: calc(50% - 104px/2 - 112px);
+    top: calc(50% - 24px/2 - 33px);
+    transform: translateX(-120px);
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.005em;
+
+
+color: var(--color-black);
+   }
+
+.continuar-correcto{
+  position:absolute;
+  width: 328px;
+  height: 50px; 
+  color: var(--color-white);
+  bottom: 16px;
+  margin-top: 20px;
+  background: var(--color-green);
+  border-radius: 16px;
+}
+
+
+.pregunta-incorrecta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  
+  position: absolute;
+  width: 100%;
+  height: 154px;
+  left: 0px;
+  bottom: 0px;
+  
+  background: #F9CFD7;
+ }
+
+ .mensaje-incorrecto{
+  
+
+  position: static;
+  width: 200px;
+  height: 24px;
+  left: calc(50% - 104px/2 - 112px);
+  top: calc(50% - 24px/2 - 33px);
+  transform: translateX(-70px);
+  /* Body 1/Bold */
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.005em;
+
+/* Black */
+
+color: var(--color-red);
+ }
+
+.continuar-incorrecto{
+position:absolute;
+width: 328px;
+height: 50px; 
+color: var(--color-white);
+bottom: 16px;
+margin-top: 20px;
+background: var(--color-red);
+border-radius: 16px;
+}
+
+.correccion{
+  position: static;
+  width: 200px;
+  height: 24px;
+  left: calc(50% - 36px/2 - 74.5px);
+  top: calc(50% - 24px/2 + 16px);
+  
+  transform: translateX(-70px);
+  /* Body 1/Regular */
+  
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  letter-spacing: 0.005em;
+  
+  color: var(--color-red)
+}
