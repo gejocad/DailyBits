@@ -1,5 +1,73 @@
 import preguntasSelecDB from './preguntasSelecDB.js'; 
 
+var respuestasOrdenadas = [];
+
+//codigo preguntaordenar
+preguntasOrdenar()
+
+function preguntasOrdenar(){
+
+document.querySelector("#listarBoton1").addEventListener('click', function () {
+
+
+  let btn1 = document.querySelector(".boton1")
+
+  btn1.innerHTML = ""
+
+
+btn1.innerHTML  += `<img class="resp_etq" src="./img/btn-html-1.png" alt="">`
+
+
+})
+
+document.querySelector("#listarBoton2").addEventListener('click', function () {
+
+  let btn2 = document.querySelector(".boton2")
+
+  btn2.innerHTML = ""
+
+
+btn2.innerHTML  += `<img class="resp_etq" src="./img/btn-html-2.png" alt="">`
+})  
+
+  
+
+document.querySelector("#listarBoton3").addEventListener('click', function () {
+
+  let btn3 = document.querySelector(".boton3")
+
+  btn3.innerHTML = ""
+
+
+btn3.innerHTML  += `<img class="resp_etq" src="./img/btn-html-3.png" alt="">`
+
+})
+
+
+document.querySelector("#listarBoton4").addEventListener('click', function () {
+
+  let btn4 = document.querySelector(".boton4")
+
+  btn4.innerHTML = ""
+
+
+btn4.innerHTML  += `<img class="resp_etq" src="./img/btn-html-4.png" alt="">`
+
+})
+
+document.querySelector("#listarBoton5").addEventListener('click', function () {
+  
+  let btn5 = document.querySelector(".boton5")
+
+  btn5.innerHTML = ""
+
+
+btn5.innerHTML  += `<img class="resp_etq" src="./img/btn-html-5.png" alt="">`
+
+})
+}
+
+//fin curso preguntas ordenamiento
 
 
 //localStorage.setItem("barras", 0);

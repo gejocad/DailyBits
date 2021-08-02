@@ -39,7 +39,7 @@ if (comprobarBtnCheck == resCorrect){
     localStorage.setItem("incorrectas", pIncorrectas);
     localStorage.setItem("tpreguntas", tPreguntas);
     if (pVidas == 0)
-        sinVidas()
+        perdiste()
 }
 
 }
@@ -80,13 +80,18 @@ function resIncorrecta(resCorrect){
 
 
 
-    function sinVidas(){
+    function perdiste(){
+
+        localStorage.setItem('barras', 0);
+        localStorage.setItem('vidas', 4); 
         alert ("perdiste");
-        window.localStorage.clear();
         window.location.href = "home.html";
     }
 
     function ganaste(){
+        
+        localStorage.setItem('barras', 10);
+        localStorage.setItem('vidas', 4); 
         alert ("Ganaste");
         window.location.href = "home.html";
     }
