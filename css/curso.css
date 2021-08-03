@@ -186,7 +186,7 @@ top: 0px;
   justify-content: center;
   align-items: center;
   padding: 4px 20px 8px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   position: static;
   left: 32px;
   top: 0px;
@@ -204,11 +204,12 @@ top: 0px;
    }
 
    .linea{
-    position: static;
-    width: 328px;
+    position:static;
+    width: auto;
+    margin-left: -4px;
     height: 1px;
-    left: 16px;
-    top: 72px;
+    right: 16px;
+    top: 75px;
     margin-bottom: 7px;
     
     

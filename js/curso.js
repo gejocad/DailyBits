@@ -220,7 +220,8 @@ insertarPreguntaOrde.innerHTML = ''
 insertarPreguntaOrde.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[0]}" value="${respuestasOrdenadas[0]}">
-        </button> `
+            <div class="linea"></div>
+  </button> `
 }else if(respuestasOrdenadas.length == 2){
   let insertarPreguntaOrde = document.querySelector(".primera-etq")
   let insertarPreguntaOrde1 = document.querySelector(".segunda-etq")
@@ -231,13 +232,15 @@ insertarPreguntaOrde.innerHTML +=  `
   insertarPreguntaOrde.innerHTML +=  `
   <button type="submit" class="btn-Orde" id="listarBoton1">
               <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[0]}" value="${respuestasOrdenadas[0]}">
-          </button> `  
+              <div class="linea"></div>
+  </button> `  
 
 
 insertarPreguntaOrde1.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[1]}" value="${respuestasOrdenadas[1]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 }else if(respuestasOrdenadas.length == 3){
   let insertarPreguntaOrde = document.querySelector(".primera-etq")
@@ -251,19 +254,22 @@ insertarPreguntaOrde1.innerHTML +=  `
   insertarPreguntaOrde.innerHTML +=  `
   <button type="submit" class="btn-Orde" id="listarBoton1">
               <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[0]}" value="${respuestasOrdenadas[0]}">
-          </button> `  
+              <div class="linea"></div>
+</button> `  
 
 
 insertarPreguntaOrde1.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[1]}" value="${respuestasOrdenadas[1]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde2.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[2]}" value="${respuestasOrdenadas[2]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 }else if(respuestasOrdenadas.length == 4){
   let insertarPreguntaOrde = document.querySelector(".primera-etq")
@@ -279,25 +285,29 @@ insertarPreguntaOrde2.innerHTML +=  `
   insertarPreguntaOrde.innerHTML +=  `
   <button type="submit" class="btn-Orde" id="listarBoton1">
               <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[0]}" value="${respuestasOrdenadas[0]}">
-          </button> `  
+              <div class="linea"></div>
+   </button> `  
 
 
 insertarPreguntaOrde1.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[1]}" value="${respuestasOrdenadas[1]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde2.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[2]}" value="${respuestasOrdenadas[2]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde3.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[3]}" value="${respuestasOrdenadas[3]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 }else if(respuestasOrdenadas.length == 5){
   let insertarPreguntaOrde = document.querySelector(".primera-etq")
@@ -315,31 +325,36 @@ insertarPreguntaOrde3.innerHTML +=  `
   insertarPreguntaOrde.innerHTML +=  `
   <button type="submit" class="btn-Orde" id="listarBoton1">
               <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[0]}" value="${respuestasOrdenadas[0]}">
-          </button> `  
+              <div class="linea"></div>
+   </button> `  
 
 
 insertarPreguntaOrde1.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[1]}" value="${respuestasOrdenadas[1]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde2.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[2]}" value="${respuestasOrdenadas[2]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde3.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[3]}" value="${respuestasOrdenadas[3]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
 insertarPreguntaOrde4.innerHTML +=  `
 <button type="submit" class="btn-Orde" id="listarBoton1">
             <input type="image" name="botondeenvio" id="botondeenvio0" src="${respuestasOrdenadas[4]}" value="${respuestasOrdenadas[4]}">
-        </button> `
+            <div class="linea"></div>
+</button> `
 
 
         localStorage.setItem("btn-Click",respuestasOrdenadas);
@@ -387,7 +402,7 @@ function signosVitales(){
   
   
   
-  if (barras >= 0){
+  if (barras >= 0 && barras <=10){
   
     let barra = document.querySelector(".barra")
     barra.innerHTML =''
