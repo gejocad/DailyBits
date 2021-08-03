@@ -1,7 +1,7 @@
 import preguntasSelecDB from './preguntasSelecDB.js'; 
 import preguntasOrdeDB from './preguntasOrdeDB.js'; 
 
-
+//funcion principal
 ordenamientoPrincipal()
 
 function ordenamientoPrincipal(){
@@ -43,9 +43,9 @@ function innerBodyOrde(){
   <p class="vida"></p>
 </div>
 <div class="pregunta">
-  <h1 class="pregunta-texto">¿Qúe etiqueta es semánticamente correcta para el contenido principal?</h1>
 </div>
-<div class="contenedor_estr primera-etq segunda-etq tercera-etq cuarta-etq quinta-etq">
+<div class="contenedor_estr">
+  <div class="primera-etq segunda-etq tercera-etq cuarta-etq quinta-etq"></div>
 </div>
 <div class="contenedor_etq">
 </div>
@@ -106,12 +106,16 @@ var respuestasOrdenadas = [];
 function mostrarPreguntaOrde(){
   
   let contenedor_etq = document.querySelector(".contenedor_etq")
+  let pregunta = document.querySelector(".pregunta")
   let botones = preguntasOrdeDB[0]
 
-  contenedor_etq.innerHTML=''
-
+  contenedor_etq.innerHTML= ''
+  pregunta.innerHTML = ''
 
   localStorage.setItem("btn-Correct", botones.btnCorrect)
+
+  pregunta.innerHTML += `
+  <h1 class="pregunta-texto">${botones.pregunta}</h1>`
 
     contenedor_etq.innerHTML += `
 

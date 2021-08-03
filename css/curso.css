@@ -183,11 +183,13 @@ top: 0px;
 }
 
 .contenedor_estr{
-  position:absolute;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  top: 200px; 
+  padding: 4px 20px 8px;
+  padding-bottom: 10px;
+  position: static;
+  left: 32px;
+  top: 0px;
  
 }
 

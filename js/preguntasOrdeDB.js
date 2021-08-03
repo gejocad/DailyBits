@@ -1,7 +1,7 @@
 let preguntasOrdeDB = [
     {
         id:  0,
-        pregunta: "British Shorthair",
+        pregunta: "Organiza la estructura de un documento HTML5",
         btn1: "img/btn-html-1.png",
         btn2: "img/btn-html-2.png",
         btn3: "img/btn-html-3.png",
